@@ -20,8 +20,9 @@ int main(){
   while(true ==1){
     printf("Enter: ");
     *fgets(command, LINESIZE, stdin);// char *fgets (char command, int 1024, FILE stdin)
-    
+    tokenize(*tokens,command);
     //create a child process 
+    
   }
   
 }
